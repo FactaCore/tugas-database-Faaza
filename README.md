@@ -4,6 +4,7 @@ Tugas Membuat Database Stasiun Bus
 Nama Database: DB_Bus_Faaza
 Struktur table: 
 1. Daftar_Bus
+
 +-----------+----------------------+-------------+--------+--------------+-----------+--------------+
 | Nama_Bus  | Tujuan               | Jadwal      | Harga  | Nama_Sopir   | kapasitas | kelas_bus    |
 +-----------+----------------------+-------------+--------+--------------+-----------+--------------+
@@ -12,7 +13,8 @@ Struktur table:
 | MGI       | Tasik-Bogor          | 10.30-14.00 | 158000 | Budi Prakoso |        36 | Tidak ber AC |
 | Primajasa | Bandung-Merak        | 10.30-14.00 |  85000 | Heri         |        30 | AC           |
 +-----------+----------------------+-------------+--------+--------------+-----------+--------------+
-2. Data_Bus
+3. Data_Bus
+
 +----+----------+--------------+------------------+-----------+---------------+
 | id | kode_bus | nama_sopir   | terakhir_dilihat | warna_bus | aktivitas_bus |
 +----+----------+--------------+------------------+-----------+---------------+
@@ -29,7 +31,8 @@ Struktur table:
 | 11 | GAL_11   | Budi Prakoso | Bandung          | Kuning    | Berangkat     |
 | 12 | TWI_98   | Roni         | Cikarang         | Putih     | On The Way    |
 +----+----------+--------------+------------------+-----------+---------------+
-3. Penumpang
+4. Penumpang
+
 +----+--------------------+---------------+------+--------------------+
 | id | nama               | jenis_kelamin | usia | riwayat_penyakit   |
 +----+--------------------+---------------+------+--------------------+
@@ -39,7 +42,8 @@ Struktur table:
 |  4 | Mahesa Narendra    | L             |   34 | Asma (Sesak Napas) |
 |  5 | Naura Nadhifa      | P             |   21 | Vertigo            |
 +----+--------------------+---------------+------+--------------------+
-4. Keberangkatan
+5. Keberangkatan
+
 +----+------------+---------------+-----------------------+---------------+----------+--------+-----------------------+-----------+
 | id | nama_depan | nama_belakang | stasiun_keberangkatan | kedatangan    | boarding | sampai | tanggal_keberangkatan | status    |
 +----+------------+---------------+-----------------------+---------------+----------+--------+-----------------------+-----------+
@@ -50,3 +54,5 @@ Struktur table:
 |  6 | Sri        | Ayu           | Cimahi Utara          | Jakarta       | 18:30    | 21:20  | 2025-12-10            | Menunggu  |
 |  7 | Galuh      | Suparman      | Cimahi Utara          | Jakarta Pusat | 19:00    | 22:00  | 2025-11-25            | Berangkat |
 +----+------------+---------------+-----------------------+---------------+----------+--------+-----------------------+-----------+
+
+
